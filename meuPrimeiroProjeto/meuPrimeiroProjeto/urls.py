@@ -21,7 +21,7 @@ from .import views
 
 
 urlpatterns = [
-    path('pessoa/<str:nome>/', views.fname),
+    path('pessoa/<str:nome>/', views.fname2),
     path('articles/<int:year>/', views.articles),
     path('hello/', views.hello),
     path('admin/', admin.site.urls),
